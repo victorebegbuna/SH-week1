@@ -5,38 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css"/>
+
 </head>
 <body>
 <main>
-<div><h1>Simple Form</h1></div>
-<fieldset>
+<div><h1 class="form">Simple Form</h1></div>
+<fieldset class="fieldset">
    
-    <legend>Bio-data</legend>
-    <table border="0">
+    <legend ><h2 class="bio">Bio-data</h2></legend>
+    <table border="0" class="table" align="center" cellspacing="15">
         
             <tr>
                 <td>
-<label>Name</label><td>
-<input type="text"></td></tr>
+<h3><label>Name</label><td></h3>
+<input type="text" class="text"></td></tr>
+
 
 <tr><td>
-<label>Email Address</label><td>
-<input type="email" spellcheck="false" id="email-add" onkeyup="validateEmail()"></td></tr>
+<h3><label>Email Address</label><td></h3>
+<input type="email" class="text"></td></tr>
 
-<tr><td><label>Phone Number</label><td>
-<input type="tel"></td></tr>
 
-<tr><td><label>Gender </label>
-<label> Male</label><td>
+<tr><td><h3><label>Phone Number</label></h3><td>
+<input type="tel" class="text"></td></tr>
+
+<tr><td><h3><label>Password</label></h3><td>
+    <input type="password" class="text" ></tr></td>
+   
+
+<tr><td><h3><label class="gender">Gender </label></h3>
+<label class="male">Male</label>
 <input type="radio" name="gender">
 <label> Female</label>
 <input type="radio" name="gender"></td></tr>
 
-<tr><td><label>Password</label><td>
-    <input type="password"></tr></td>
+ 
+  <tr> <td> <button class="button"><a href="success.html"><h4 class="submit" >Submit</h4></button></td></tr>
 
 </table>
-<button><a href="success.html">Submit</button>
+
     
 
 

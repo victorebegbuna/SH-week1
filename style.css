@@ -1,0 +1,45 @@
+.form{
+    text-align: center;
+    color: blue;
+}
+
+.fieldset{
+    position: absolute;
+    width: 35%;
+    height: 15%px;
+    margin-left: 35%;
+    background-color:rgb(228, 34, 28);
+    border-radius: 20px;
+}
+.bio{
+    color: blue;
+    
+
+}
+
+ .button{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+    
+ }
+
+ .text{
+    width: 150%;
+    border-radius: 10px;
+    height: 25px;
+ }
+
+ .submit{
+    color: red;
+    margin-top: 7px;
+    text-decoration:none;
+ }
+
+ 
+ 
+
+  
